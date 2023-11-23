@@ -1,0 +1,26 @@
+{
+  "name": "study-violin-servicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@teachablemachine/pose": "^0.8.3",
+    "@tensorflow/tfjs": "^4.13.0",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.1.4",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "jsdom": "^15.2.1",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.22"
+  }
+}
