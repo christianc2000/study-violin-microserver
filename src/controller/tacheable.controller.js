@@ -11,6 +11,7 @@ async function loadModel() {
 }
 
 async function analyzeImage(req, res, next) {
+    console.log("ingresa al analizar");
     if (!model) {
         console.log("tmPose.load exitosamente");
         await loadModel();
